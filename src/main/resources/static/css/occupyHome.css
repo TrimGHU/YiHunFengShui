@@ -1,0 +1,51 @@
+.article_occupy{
+    width: 1000px;
+    margin: 0 auto;
+}
+.article_occupy>h3{
+    font-size: 34px;
+    line-height: 56px;
+}
+.article_occupy_des,.article_occupy_des2{
+    width: 100%;
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    zoom: 1;
+    font-family: "宋体";
+}
+.article_occupy_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+.article_occupy_info>.info_left,.article_occupy_info>.info_right{
+    width: 50%;
+}
+.article_occupy_info>.info_left>li>span,.article_occupy_info>.info_right>li>span{
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+.article_occupy_info>.info_left>li>span:first-child,.article_occupy_info>.info_right>li>span:first-child{
+    margin-right: 40px;
+}
+.occupy_classification h3{
+    line-height: 40px;
+    font-size: 22px;
+}
+.occupy_classification h5,.occupy_classification h4{
+    font-size: 18px;
+    line-height: 20px;
+}
+.occupy_classification h5{
+    text-indent: 2em;
+}
+.occupy_classification p{
+    line-height: 24px;
+    font-size: 16px;
+    text-indent: 2em;
+}

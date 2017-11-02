@@ -1,0 +1,252 @@
+.case_article {
+    position: relative;
+    /*height: 600px;*/
+    /*background: url("../images/header/bg.jpg") no-repeat left top;*/
+    padding-top: 260px;
+    display: flex;
+    justify-content: center;
+}
+.case_direction{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 260px;
+    text-align: center;
+}
+.case_direction>.case_direction_top>h3{
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    letter-spacing: 12px;
+    color: #000;
+    font-size: 60px;
+    margin: 70px 0 60px 0;
+}
+.case_direction>.case_direction_bot{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    height: 40px;
+}
+.case_direction>.case_direction_bot a{
+    text-decoration: underline;
+}
+.case_direction>.case_direction_bot a:hover{
+    text-decoration: none;
+}
+.case_list{
+    width: 1000px;
+    box-shadow: 5px 5px 3px #000;
+    border-left: 1px solid #666;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #666;
+}
+.case_list>.case_list_top{
+    height: 60px;
+    background: #7c3507;
+    text-align: right;
+}
+.case_list>.case_list_top>h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 25px;
+    line-height: 60px;
+}
+.case_list>.case_list_top>h3>a{
+    color: #fff;
+    margin: 0 2px;
+}
+.case_list>.case_list_bot{
+    width: 900px;
+    margin: 0 auto;
+}
+.case_list>.case_list_bot li{
+    border-bottom: 1px dashed #666;
+    height: 60px;
+    line-height: 60px;
+}
+.case_list>.case_list_bot li>.case-list_first{
+    width: 800px;
+    display: inline-block;
+}
+.case_list>.case_list_bot li>.case-list_first>a{
+    color: #251305;
+}
+.case_list>.case_list_bot li>.case_list_second{
+    width: 100px;
+    display: inline-block;
+}
+.case_list>.case_list_page{
+    width: 900px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.case_list>.case_list_page_select{
+    width: 900px;
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: center;
+}
+.case_list>.case_list_page_select>.current{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.case_list>.case_list_page_select>.cursor{
+    cursor: pointer;
+}
+.case_list>.case_about_company{
+    width: 100%;
+    height: 350px;
+    border-top: 1px dashed #666;
+}
+.case_list>.case_about_company>.case_about_des{
+    padding: 30px;
+    line-height: 30px;
+    width: 940px;
+    margin: 0 auto;
+}
+.case_about_des_img{
+    float: right;
+    margin-right: 30px;
+}
+.case_about_des>.about{
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+}
+.case_about_des>p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.case_about_des>.about_commit{
+    color: red;
+}
+
+/*结缘大师*/
+.case_list>.case_list_mid{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px #666 dashed;
+    text-align: center;
+}
+.case_list>.case_list_mid>h3{
+    line-height: 80px;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    letter-spacing: 12px;
+    font-size: 30px;
+}
+.case_list>.case_aboutUs_bot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.case_list>.case_aboutUs_bot>.case_aboutUs_bot_des{
+    width: 80%;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.platform{
+    font-size: 30px;
+    line-height: 40px;
+    /*margin: 40px  0;*/
+    margin-top: 60px;
+
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.set_up{
+    font-size: 26px;
+    line-height: 40px;
+    margin: 50px 0;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.direction{
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.case_aboutUs_img{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.case_aboutUs_img>img{
+    width: 100%;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.founder{
+    font-size: 26px;
+    line-height: 40px;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.example{
+    font-size: 26px;
+    line-height: 40px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.assure{
+    margin-top: 40px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.vision{
+    margin-bottom: 0px;
+}
+.case_aboutUs_bot>.case_aboutUs_bot_des>.everbright{
+    margin-bottom: 40px;
+}
+/*择吉取名*/
+.name_list>.name_mid{
+    text-align: left;
+    text-indent: 2em;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+}
+.name_list .change_name_explain{
+    width: 900px;
+    margin: 0 auto;
+}
+.name_list .change_name_explain ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.name_list .change_name_explain li{
+    width: 160px;
+    margin: 8px;
+    text-align: center;
+}
+.name_list .change_name_explain li>div{
+    border: 2px solid #9c9c9c;
+    width: 100%;
+}
+.name_list .change_name_explain li>span{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.name_list .change_name_explain li>div img{
+    width: 100%;
+}
+.target{
+    height: 60px;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+}
+.good_name_box{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px dashed #666;
+}
+.good_name_box img{
+    display: inline-block;
+    margin: 0 30px;
+}
+.good_name_box div{
+    margin: 20px 30px 0 0;
+    line-height: 24px;
+    font-size: 18px;
+}
