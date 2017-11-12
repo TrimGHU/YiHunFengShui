@@ -1,4 +1,4 @@
-.case_article {
+.case_article,.occupyHome,.article_enter {
     position: relative;
     /*height: 600px;*/
     /*background: url("../images/header/bg.jpg") no-repeat left top;*/
@@ -20,7 +20,7 @@
     text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     letter-spacing: 12px;
     color: #000;
-    font-size: 60px;
+    font-size: 8vh;
     margin: 70px 0 60px 0;
 }
 .case_direction>.case_direction_bot{
@@ -31,6 +31,7 @@
 }
 .case_direction>.case_direction_bot a{
     text-decoration: underline;
+    font-size: 3.5vh;
 }
 .case_direction>.case_direction_bot a:hover{
     text-decoration: none;

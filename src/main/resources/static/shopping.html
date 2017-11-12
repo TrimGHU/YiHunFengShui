@@ -10,34 +10,20 @@
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
 	<script type="text/javascript" src="js/quick_links.js"></script>
-	<script src="js/jquery-1.10.1.min.js"></script>
-	<script src="js/scroll.js"></script>
-	<script src="js/headerLi.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/headerLi.js"></script>
 </head>
-<body id="home" style="height: 1000px;">
-	<header>
+<body>
+<header>
 	<div class="header_logo">
-		<div class="header_logo_left">易魂风水</div>
-		<div class="header_logo_mid">
-			<p>成大事者必懂命运</p>
-			<p>改运助运必用风水</p>
+		<div class="header_logo_left">
+			易经风水
 		</div>
-		<div class="header_logo_right">
-			<ul>
-				<li>消灾引福</li>
-				<li>寻龙点穴</li>
-				<li>地理风水</li>
-				<li>牵线姻缘</li>
-				<li>八字取名</li>
-				<li>择日评日</li>
-				<li>预测财运</li>
-				<li>新车开光</li>
-				<li>吉日搬迁</li>
-				<li>灵符制煞</li>
-			</ul>
+		<div class="header_logo_right2">
+			<img src="images/index/header_logo2.png">
 		</div>
 	</div>
-	</header>
+</header>
 	<!--<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="header.html" width="100%" height="160px"></iframe>-->
 	<nav>
 	<div class="nav_list" id="nav_list">
@@ -60,130 +46,138 @@
 		<div id="plist">
 			<ul>
 				<li>
-					<div class="lh_wrap">
+					<div id="product_div_1" class="lh_wrap">
+						<input hidden="true" value="300" id="price_1"/>
 						<div class="p-img">
-							<a href="#"><img alt="入驻商家测试商品3"
-								src="images/shopping/147_thumb_G_1409275114094.jpg"
-								title="入驻商家测试商品3" width="240" height="240"></a>
+							<a href="#"><img alt="入驻商家测试商品1"
+								src="images/product/1.jpg"
+								title="入驻商家测试商品3" width="240"></a>
 						</div>
 						<div class="p-name">
-							<a href="#" title="入驻商家测试商品3">入驻商家测试商品3</a>
+							<a href="#" title="商品1">商品1</a>
 						</div>
 						<div class="p-price">
 							<strong>￥300</strong><span id="p200"></span>
 						</div>
-						<div class="extra">
-							<a href="#">已售出0件</a>
-						</div>
 						<div class="btns">
-							<a href="javascript:;" class="add_cart_large btnCart">加入购物车</a> <a
-								href="javascript:;" class="add_cart_small btnCart">关注</a> <a
-								class="btn-compare"> <input id="147"
-								onClick="Compare.add(this, 147,'入驻商家测试商品3','1', 'images/shopping/201408/thumb_img/147_thumb_G_1409275114094.jpg', '￥300', '￥360')"
-								type="checkbox"> <label for="147">对比</label></a>
-						</div>
+							<a href="javascript:addProductToCart('1');" class="add_cart_large btn_cart">加入购物车</a> 
 					</div>
 				</li>
+				
 				<li>
-					<div class="lh_wrap">
+					<div id="product_div_4" class="lh_wrap">
+						<input hidden="true" value="300" id="price_4"/>
 						<div class="p-img">
-							<a href="#"><img alt="入驻商家测试商品3"
-								src="images/shopping/147_thumb_G_1409275114094.jpg"
-								title="入驻商家测试商品3" width="240" height="240"></a>
+							<a href="#"><img alt="入驻商家测试商品4"
+								src="images/product/4.jpg"
+								title="入驻商家测试商品4" width="240"></a>
 						</div>
 						<div class="p-name">
-							<a href="#" title="入驻商家测试商品3">入驻商家测试商品3</a>
+							<a href="#" title="商品4">商品4</a>
 						</div>
 						<div class="p-price">
 							<strong>￥300</strong><span id="p200"></span>
 						</div>
-						<div class="extra">
-							<a href="#">已售出0件</a>
-						</div>
 						<div class="btns">
-							<a href="javascript:;" class="add_cart_large btnCart">加入购物车</a> <a
-								href="javascript:;" class="add_cart_small btnCart">关注</a> <a
-								class="btn-compare"> <input id="147"
-								onClick="Compare.add(this, 147,'入驻商家测试商品3','1', 'images/shopping/201408/thumb_img/147_thumb_G_1409275114094.jpg', '￥300', '￥360')"
-								type="checkbox"> <label for="147">对比</label></a>
-						</div>
+							<a href="javascript:addProductToCart('4');" class="add_cart_large btn_cart">加入购物车</a> 
 					</div>
 				</li>
+				
 				<li>
-					<div class="lh_wrap">
+					<div id="product_div_3" class="lh_wrap">
+						<input hidden="true" value="300" id="price_3"/>
 						<div class="p-img">
 							<a href="#"><img alt="入驻商家测试商品3"
-								src="images/shopping/147_thumb_G_1409275114094.jpg"
-								title="入驻商家测试商品3" width="240" height="240"></a>
+								src="images/product/3.jpg"
+								title="入驻商家测试商品2" width="240"></a>
 						</div>
 						<div class="p-name">
-							<a href="#" title="入驻商家测试商品3">入驻商家测试商品3</a>
+							<a href="#" title="商品3">商品3</a>
 						</div>
 						<div class="p-price">
 							<strong>￥300</strong><span id="p200"></span>
 						</div>
-						<div class="extra">
-							<a href="#">已售出0件</a>
-						</div>
 						<div class="btns">
-							<a href="javascript:;" class="add_cart_large btnCart">加入购物车</a> <a
-								href="javascript:;" class="add_cart_small btnCart">关注</a> <a
-								class="btn-compare"> <input id="147"
-								onClick="Compare.add(this, 147,'入驻商家测试商品3','1', 'images/shopping/201408/thumb_img/147_thumb_G_1409275114094.jpg', '￥300', '￥360')"
-								type="checkbox"> <label for="147">对比</label></a>
-						</div>
+							<a href="javascript:addProductToCart('3');" class="add_cart_large btn_cart">加入购物车</a> 
 					</div>
 				</li>
+				
 				<li>
-					<div class="lh_wrap">
+					<div id="product_div_5" class="lh_wrap">
+						<input hidden="true" value="300" id="price_5"/>
 						<div class="p-img">
-							<a href="#"><img alt="入驻商家测试商品3"
-								src="images/shopping/147_thumb_G_1409275114094.jpg"
-								title="入驻商家测试商品3" width="240" height="240"></a>
+							<a href="#"><img alt="入驻商家测试商品5"
+								src="images/product/5.jpg"
+								title="入驻商家测试商品3" width="240"></a>
 						</div>
 						<div class="p-name">
-							<a href="#" title="入驻商家测试商品3">入驻商家测试商品3</a>
+							<a href="#" title="商品5">商品5</a>
 						</div>
 						<div class="p-price">
 							<strong>￥300</strong><span id="p200"></span>
 						</div>
-						<div class="extra">
-							<a href="#">已售出0件</a>
-						</div>
 						<div class="btns">
-							<a href="javascript:;" class="add_cart_large btnCart">加入购物车</a> <a
-								href="javascript:;" class="add_cart_small btnCart">关注</a> <a
-								class="btn-compare"> <input id="147"
-								onClick="Compare.add(this, 147,'入驻商家测试商品3','1', 'images/shopping/201408/thumb_img/147_thumb_G_1409275114094.jpg', '￥300', '￥360')"
-								type="checkbox"> <label for="147">对比</label></a>
-						</div>
+							<a href="javascript:addProductToCart('5');" class="add_cart_large btn_cart">加入购物车</a> 
 					</div>
 				</li>
+				
 				<li>
-					<div class="lh_wrap">
+					<div id="product_div_6" class="lh_wrap">
+						<input hidden="true" value="300" id="price_6"/>
 						<div class="p-img">
-							<a href="#"><img alt="入驻商家测试商品3"
-								src="images/shopping/147_thumb_G_1409275114094.jpg"
-								title="入驻商家测试商品3" width="240" height="240"></a>
+							<a href="#"><img alt="入驻商家测试商品6"
+								src="images/product/6.jpg"
+								title="入驻商家测试商品6" width="240"></a>
 						</div>
 						<div class="p-name">
-							<a href="#" title="入驻商家测试商品3">入驻商家测试商品3</a>
+							<a href="#" title="商品6">商品6</a>
 						</div>
 						<div class="p-price">
 							<strong>￥300</strong><span id="p200"></span>
 						</div>
-						<div class="extra">
-							<a href="#">已售出0件</a>
-						</div>
 						<div class="btns">
-							<a href="javascript:;" class="add_cart_large btnCart">加入购物车</a> <a
-								href="javascript:;" class="add_cart_small btnCart">关注</a> <a
-								class="btn-compare"> <input id="147"
-								onClick="Compare.add(this, 147,'入驻商家测试商品3','1', 'images/shopping/201408/thumb_img/147_thumb_G_1409275114094.jpg', '￥300', '￥360')"
-								type="checkbox"> <label for="147">对比</label></a>
-						</div>
+							<a href="javascript:addProductToCart('6');" class="add_cart_large btn_cart">加入购物车</a> 
 					</div>
 				</li>
+				
+				<li>
+					<div id="product_div_7" class="lh_wrap">
+						<input hidden="true" value="300" id="price_7"/>
+						<div class="p-img">
+							<a href="#"><img alt="入驻商家测试商品7"
+								src="images/product/7.jpg"
+								title="入驻商家测试商品3" width="240"></a>
+						</div>
+						<div class="p-name">
+							<a href="#" title="商品7">商品7</a>
+						</div>
+						<div class="p-price">
+							<strong>￥300</strong><span id="p200"></span>
+						</div>
+						<div class="btns">
+							<a href="javascript:addProductToCart('7');" class="add_cart_large btn_cart">加入购物车</a> 
+					</div>
+				</li>
+				
+				<li>
+					<div id="product_div_2" class="lh_wrap">
+						<input hidden="true" value="300" id="price_2"/>
+						<div class="p-img">
+							<a href="#"><img alt="入驻商家测试商品2"
+								src="images/product/2.jpg"
+								title="入驻商家测试商品2" width="240"></a>
+						</div>
+						<div class="p-name">
+							<a href="#" title="商品2">商品2</a>
+						</div>
+						<div class="p-price">
+							<strong>￥300</strong><span id="p200"></span>
+						</div>
+						<div class="btns">
+							<a href="javascript:addProductToCart('2');" class="add_cart_large btn_cart">加入购物车</a> 
+					</div>
+				</li>
+				
 			</ul>
 		</div>
 		<div id="flyItem" class="fly_item">
@@ -196,53 +190,11 @@
 		<div class="quick_link_mian">
 			<div class="quick_links_panel">
 				<div id="quick_links" class="quick_links">
-					<li><a href="#" class="my_qlinks"><i class="setting"></i></a>
-						<div class="ibar_login_box status_login">
-							<div class="avatar_box">
-								<p class="avatar_imgbox">
-									<img src="images/shopping/no-img_mid_.jpg" />
-								</p>
-								<ul class="user_info">
-									<li>用户名：sl19931003</li>
-									<li>级&nbsp;别：普通会员</li>
-								</ul>
-							</div>
-							<div class="login_btnbox">
-								<a href="#" class="login_order">我的订单</a> <a href="#"
-									class="login_favorite">我的收藏</a>
-							</div>
-							<i class="icon_arrow_white"></i>
-						</div></li>
 					<li id="shopCart"><a href="#" class="message_list"><i
 							class="message"></i>
 							<div class="span">购物车</div> <span class="cart_num">0</span></a></li>
-					<li><a href="#" class="history_list"><i class="view"></i></a>
-						<div class="mp_tooltip" style="visibility: hidden;">
-							我的资产<i class="icon_arrow_right_black"></i>
-						</div></li>
-					<li><a href="#" class="mpbtn_histroy"><i class="zuji"></i></a>
-						<div class="mp_tooltip">
-							我的足迹<i class="icon_arrow_right_black"></i>
-						</div></li>
-					<li><a href="#" class="mpbtn_wdsc"><i class="wdsc"></i></a>
-						<div class="mp_tooltip">
-							我的收藏<i class="icon_arrow_right_black"></i>
-						</div></li>
-					<li><a href="#" class="mpbtn_recharge"><i class="chongzhi"></i></a>
-						<div class="mp_tooltip">
-							我要充值<i class="icon_arrow_right_black"></i>
-						</div></li>
 				</div>
 				<div class="quick_toggle">
-					<li><a href="#"><i class="kfzx"></i></a>
-						<div class="mp_tooltip">
-							客服中心<i class="icon_arrow_right_black"></i>
-						</div></li>
-					<li><a href="#none"><i class="mpbtn_qrcode"></i></a>
-						<div class="mp_qrcode" style="display: none;">
-							<img src="images/shopping/weixin_code_145.png" width="148"
-								height="175" /><i class="icon_arrow_white"></i>
-						</div></li>
 					<li><a href="#top" class="return_top"><i class="top"></i></a></li>
 				</div>
 			</div>
@@ -257,6 +209,105 @@
 
 	<script type="text/javascript" src="js/parabola.js"></script>
 	<script type="text/javascript">
+		var initTotalCount = ds.getCookie("totalCount");
+		if(isNaN(initTotalCount) || initTotalCount == ''){
+			initTotalCount = 0;
+		}
+		$('.cart_num').html(initTotalCount);
+		
+		function deleteFromCart(obj){
+			var product_id = $(obj).attr('product_id');
+
+			var totalPrice = parseFloat(ds.getCookie("totalPrice"));
+			var totalCount = parseInt(ds.getCookie("totalCount"));
+			if(isNaN(totalPrice)){
+				totalPrice = 0;
+				totalCount = 0;
+			}
+			
+			var productCookie = ds.getCookie("productJSON");
+			var productJSON = [];
+			if(productCookie != undefined && productCookie != ''){
+				productJSON = JSON.parse(productCookie);
+			}
+			
+			var copyProductJSON = [];
+			var totalJSONSize = productJSON.length;
+			for (var i = 0; i < totalJSONSize; i++) {
+				var product = productJSON.pop();
+				if(product.imageName == product_id){
+					totalCount = totalCount - parseInt(product.count);
+					totalPrice = totalPrice - (parseFloat(product.price) * parseInt(product.count));
+					break;
+				}
+				copyProductJSON.push(product);
+			}
+			for (var i = 0; i < copyProductJSON.length; i++) {
+				productJSON.push(copyProductJSON[i]);
+			}
+
+			ds.setCookie("totalCount", totalCount, 30);
+			ds.setCookie("totalPrice", totalPrice, 30);
+			ds.setCookie("productJSON", JSON.stringify(productJSON), 30);
+
+			$(obj).parent().parent().remove();
+			$('.cart_handler_left .cart_price').html(totalCount);
+			$('.cart_num').html(totalCount);
+			$('#price').html('￥'+totalPrice);
+		};
+		
+		function addProductToCart(productId){
+			var productCookie = ds.getCookie("productJSON");
+			var productJSON = [];
+			if(productCookie != undefined && productCookie != ''){
+				productJSON = JSON.parse(productCookie);
+			}
+
+			var productName = $('#product_div_' + productId).find('.p-name a').html();
+			var imageName = productId;
+			var count = 1;
+			var price = parseFloat($('#price_' + productId).val());
+			
+			if(productJSON.length == 0){
+				var row = {};
+				row.productName = productName;
+				row.imageName = imageName;
+				row.count = count;
+				row.price = price;
+				productJSON.push(row);
+			}else{
+				var exists = false;
+				for(var i = 0 ; i < productJSON.length ; i ++){
+					if(productJSON[i].productName == productName){
+						exists = true;
+						productJSON[i].count = parseInt(productJSON[i].count) + 1;
+					}
+				}
+				if(!exists){
+					var row = {};
+					row.productName = productName;
+					row.imageName = imageName;
+					row.count = count;
+					row.price = price;
+					productJSON.push(row);
+				}
+			}
+			
+			var totalPrice = parseFloat(ds.getCookie("totalPrice"));
+			var totalCount = parseInt(ds.getCookie("totalCount"));
+			if(isNaN(totalPrice)){
+				totalPrice = 0;
+				totalCount = 0;
+			}
+			totalPrice = totalPrice + price;
+			totalCount = totalCount + count;
+			$('.cart_num').html(totalCount);
+			
+			ds.setCookie("totalCount", totalCount, 30);
+			ds.setCookie("totalPrice", totalPrice, 30);
+			ds.setCookie("productJSON", JSON.stringify(productJSON), 30);
+		};
+	
 		$(".quick_links_panel li").mouseenter(function() {
 			$(this).children(".mp_tooltip").animate({
 				left : -92,
@@ -290,14 +341,13 @@
 			curvature : 0.0008, //控制抛物线弧度
 			complete : function() {
 				eleFlyElement.style.visibility = "hidden";
-				eleShopCart.querySelector("span").innerHTML = ++numberItem;
 			}
 		});
 		// 绑定点击事件
 		if (eleFlyElement && eleShopCart) {
 
 			[].slice
-					.call(document.getElementsByClassName("btnCart"))
+					.call(document.getElementsByClassName("btn_cart"))
 					.forEach(
 							function(button) {
 								button

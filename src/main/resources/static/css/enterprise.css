@@ -5,14 +5,17 @@
     justify-content: center;
 }
 .article_mid {
-    padding: 0 10%;
+    /*padding: 0 10%;*/
+    border-top: 1px #333 solid;
 }
 .article_enter>.article_mid>h3{
     font-size: 34px;
     line-height: 56px;
+    background-color: #7c3507;
+    text-align: center;
 }
 .article_enter .article_des{
-    width: 950px;
+    /*width: 950px;*/
     border: 1px solid #ccc;
     background-color: #bcd3e5;
     padding: 16px 20px 20px 30px;

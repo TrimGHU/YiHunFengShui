@@ -26,7 +26,8 @@ textarea{resize:none;}
     padding-top: 10px;
 }
 .header_logo>.header_logo_left{
-    width: 300px;
+    /*width: 300px;*/
+    width: 22.3%;
     height: 100%;
     border-right: 1px solid #ccc;
     background: url(../images/enterprise/enter_logo.jpg) no-repeat left top/cover;
@@ -36,6 +37,14 @@ textarea{resize:none;}
     padding-right: 0px;
     text-indent: 130px;
     float: left;
+}
+.header_logo>.header_logo_right2{
+    width: 76.7%;
+    height: 100%;
+    float: left;
+}
+.header_logo>.header_logo_right2>img{
+    /*width: 100%;*/
 }
 .header_logo_mid{
     width: 350px;
@@ -147,7 +156,7 @@ textarea{resize:none;}
 /*更多联系方式*/
 .header_more{
     position: fixed;
-    right: 1%;
+    right: 2%;
     top: 25%;
     width: 60px;
     /*height: 60px;*/
@@ -174,12 +183,49 @@ textarea{resize:none;}
     color: red;
 }
 
+.wechat{
+    background: url(../images/header/wechat.png) no-repeat left top/cover;
+    width: 200px;
+    height:192px;
+    position: fixed;
+    right: 100px;
+    top:192px;
+    border:1px solid #666;
+    z-index: 200;
+    background-color: #ebebeb;
+    display: none;
+}
+.qq{
+    background: url(../images/header/qq.png) no-repeat left top/cover;
+    width: 200px;
+    height:60px;
+    position: fixed;
+    right: 100px;
+    top:327px;
+    border:1px solid #666;
+    z-index: 200;
+    background-color: #ebebeb;
+    display: none;
+}
+.phone{
+    background: url(../images/header/phone.png) no-repeat left top/cover;
+    width: 200px;
+    height:60px;
+    position: fixed;
+    right: 100px;
+    top:192px;
+    border:1px solid #666;
+    z-index: 200;
+    background-color: #ebebeb;
+    display: none;
+}
+
 /*意见反馈*/
 .feedback{
     width: 200px;
     position: fixed;
     right: 100px;
-    top:210px;
+    top:192px;
     border:1px solid #666;
     z-index: 200;
     background-color: #ebebeb;
@@ -244,4 +290,18 @@ textarea{resize:none;}
 }
 .red{
     border: 1px solid red!important;
+}
+
+@media screen and (max-width:1024px){
+    .nav_list>.nav_menu>li>a{
+        width: 90px;
+    }
+    .nav_menu{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1080px){
+    .nav_menu{
+        margin-left: 36px;
+    }
 }

@@ -5,6 +5,7 @@
     <title>企业风水</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/enterprise.css" rel="stylesheet" type="text/css">
+    <link href="css/case.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/headerLi.js"></script>
@@ -13,31 +14,16 @@
 <header>
     <div class="header_logo">
         <div class="header_logo_left">
-            易魂风水
+            易经风水
         </div>
-        <div class="header_logo_mid">
-            <p>成大事者必懂命运</p>
-            <p>改运助运必用风水</p>
-        </div>
-        <div class="header_logo_right">
-            <ul>
-                <li>消灾引福</li>
-                <li>寻龙点穴</li>
-                <li>地理风水</li>
-                <li>牵线姻缘</li>
-                <li>八字取名</li>
-                <li>择日评日</li>
-                <li>预测财运</li>
-                <li>新车开光</li>
-                <li>吉日搬迁</li>
-                <li>灵符制煞</li>
-            </ul>
+        <div class="header_logo_right2">
+            <img src="images/index/header_logo2.png">
         </div>
         <div class="header_more">
             <ul class="more_list">
-                <li>电话</li>
-                <li>微信</li>
-                <li>QQ</li>
+                <li id="phone">电话</li>
+                <li id="wechat">微信</li>
+                <li id="qq">QQ</li>
                 <li id="Message_Board">留言版</li>
             </ul>
         </div>
@@ -59,6 +45,9 @@
         </ul>
     </div>
 </nav>
+<div class="phone"></div>
+<div class="wechat"></div>
+<div class="qq"></div>
 <div class="feedback">
     <div class="feedback_top">
         <p>请您留言</p>
@@ -74,7 +63,15 @@
 </div>
 <article>
     <div class="article_enter">
-        <div class="article_mid">
+        <div class="case_direction">
+            <div class="case_direction_top">
+                <h3>专注企业、家居风水</h3>
+            </div>
+            <div class="case_direction_bot">
+                <p>有疑问？<a href="#" onclick="javascript:$('#Message_Board').click();">请点击问题反馈，我们会及时给您解答！</a></p>
+            </div>
+        </div>
+        <div class="article_mid case_list">
             <h3>中国风水文化与企业发展</h3>
             <div class="article_des">
                 <P style="text-indent: 2em">只要是一个中国人，除了知道佛教、道教、孔夫子以外，一定还知道另外一件事情，那就是风水。
@@ -402,6 +399,6 @@
     <img src="images/to_top/to_top.png">
     <span>返回顶部</span>
 </div>
-<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="footer.html" height="auto" width="100%"></iframe>
+<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="footer.html" height="190px" width="100%"></iframe>
 </body>
 </html>

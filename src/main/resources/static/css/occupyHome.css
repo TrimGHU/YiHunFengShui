@@ -1,10 +1,14 @@
 .article_occupy{
     width: 1000px;
     margin: 0 auto;
+    border: 1px solid #333;
+    background-color: #bcd3e5;
 }
 .article_occupy>h3{
     font-size: 34px;
     line-height: 56px;
+    background-color: #7c3507;
+    text-align: center;
 }
 .article_occupy_des,.article_occupy_des2{
     width: 100%;
@@ -14,6 +18,9 @@
     margin-bottom: 10px;
     zoom: 1;
     font-family: "宋体";
+    margin-top: 10px;
+    padding: 0 6px;
+    box-sizing: border-box;
 }
 .article_occupy_info{
     width: 100%;
@@ -21,6 +28,13 @@
     justify-content: center;
     border-bottom: 1px solid #ccc;
     padding-bottom: 8px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+.occupy_classification{
+    padding: 0 6px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
 }
 .article_occupy_info>.info_left,.article_occupy_info>.info_right{
     width: 50%;

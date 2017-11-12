@@ -4,6 +4,7 @@ $(function () {
         if (scrollTop > 110) {
             $("#nav_list").css('top', 0);
         } else if (scrollTop > 0 && scrollTop < 110) {
+            console.log("scrollTop="+scrollTop);
             var nav_list = 110 - scrollTop;
             $("#nav_list").css('top', nav_list);
             $('.to_top').css('display', 'none');
